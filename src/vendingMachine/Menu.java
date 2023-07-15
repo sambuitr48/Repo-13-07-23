@@ -37,6 +37,9 @@ public class Menu {
                     System.out.println("perdio,parcero");
                 } break;
             }
+            default:{
+                System.out.println("Ese producto no existe");
+            }
         }
     }
 }
